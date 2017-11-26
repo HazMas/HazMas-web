@@ -1,1 +1,138 @@
-/* You can add global styles to this file, and also import other style files */
+.h-0100 {
+    height: 100%;
+    }
+    
+    .h-30 {
+        height: 30px;
+    }
+    
+    .h-20 {
+        height: 20px;
+    }
+    
+    .w-0100 {
+    width: 100%;
+    }
+    
+    .m-0 {
+        margin: 0;
+    }
+    
+    .pt-10 {
+        padding-top: 10px;
+    }
+    
+    .pt-20 {
+        padding-top: 20px;
+    }
+    
+    .pl-10 {
+        padding-left: 10px;
+    }
+    
+    .pl-20 {
+        padding-left: 10px;
+    }
+    
+    .pl-30 {
+        padding-left: 30px;
+    }
+    
+    .pl-40 {
+        padding-left: 40px;
+    }
+    
+    .absolute {
+        position: absolute;
+    }
+    
+    .max-w-250 {
+        max-width: 250px;
+    }
+    
+    .color-w {
+        color: #fff;
+    }
+    .color-p {
+        color: #F93762;
+    }
+    
+    
+    .bg-gradient-primary {
+    background-image: linear-gradient(200deg, #4E2D9C 0%, #1D1463 80%);
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    }
+    
+    .bg-white {
+        background: #fff;
+    }
+    
+    .center {
+        position: absolute;
+     transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+    }
+    
+    /*CLASES DE FLEX*/
+    
+    .flex {
+        display: flex;
+    }
+    
+    .align-center {
+        align-items: center;
+    }
+    
+    .justify-center {
+        justify-content: center;
+    }
+    
+    /*KEYFRAMES*/
+    .spin {
+    -webkit-animation-name: spin;
+        -webkit-animation-duration: 1000ms;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-name: spin;
+        -moz-animation-duration: 1000ms;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-timing-function: linear;
+        -ms-animation-name: spin;
+        -ms-animation-duration: 1000ms;
+        -ms-animation-iteration-count: infinite;
+        -ms-animation-timing-function: linear;
+        
+        animation-name: spin;
+        animation-duration: 1000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    
+    @-ms-keyframes spin {
+        from { -ms-transform: rotate(0deg); }
+        to { -ms-transform: rotate(360deg); }
+    }
+    @-moz-keyframes spin {
+        from { -moz-transform: rotate(0deg); }
+        to { -moz-transform: rotate(360deg); }
+    }
+    @-webkit-keyframes spin {
+        from { -webkit-transform: rotate(0deg); }
+        to { -webkit-transform: rotate(360deg); }
+    }
+    @keyframes spin {
+        from {
+            transform:rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg);
+        }
+    }
+    
+    
